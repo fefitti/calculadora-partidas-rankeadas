@@ -15,3 +15,13 @@ let vitorias = 70;
 let derrotas = 30;
 let resultado = calcularNivel(vitorias, derrotas);
 console.log(`O Herói tem saldo de ${resultado.saldoVitorias} e está no nível ${resultado.nivel}`);
+
+
+Níveis de Classificação
+Ferro: Vitórias < 10
+Bronze: 10 <= Vitórias <= 20
+Prata: 21 <= Vitórias <= 50
+Ouro: 51 <= Vitórias <= 80
+Diamante: 81 <= Vitórias <= 90
+Lendário: 91 <= Vitórias <= 100
+Imortal: Vitórias >= 101
